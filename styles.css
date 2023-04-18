@@ -1,0 +1,105 @@
+/* Align all text to center and set the background color */
+body {
+  text-align: center;
+  background-color: #6D5D6E;
+}
+
+/* Set the margin-top to 0 for the game element */
+#game {
+  margin-top: 0;
+}
+
+/* Style for the level title */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 1% 5% 3%;
+  color: #FEF2BF;
+}
+
+/* Set the container to display as a block and center it */
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* Style for the game buttons */
+.butn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/* Style for the game over message */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Style for the red button */
+.red {
+  background-color: red;
+}
+
+/* Style for the green button */
+.green {
+  background-color: green;
+}
+
+/* Style for the blue button */
+.blue {
+  background-color: blue;
+}
+
+/* Style for the yellow button */
+.yellow {
+  background-color: yellow;
+}
+
+/* Style for the button when it is pressed */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Style for the horizontal line */
+hr {
+  margin: 0;
+  border-top: 3px solid black;
+}
+
+/* Style for the navbar */
+.navbar {
+  background-color: #393646;
+}
+
+/* Style for the navbar brand */
+.navbar-brand {
+  color: #FF6D60;
+  font-size: 2rem;
+  font-family: "Monteserrat";
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+/* Style for the navbar items */
+.nav-item {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+/* Style for the bottom container */
+.bottom-container {
+  margin: 5% 0% 2%;
+}
+
+/* Style for the logo */
+.logo {
+  width: 25px;
+  margin: 0 10px 5px;
+}
